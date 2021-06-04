@@ -1,0 +1,107 @@
+,Nom_région,Code_région,Nom_département,Code_département
+0,Auvergne-Rhône-Alpes,84,Ain,01
+1,Auvergne-Rhône-Alpes,84,Allier,03
+2,Auvergne-Rhône-Alpes,84,Ardèche,07
+3,Auvergne-Rhône-Alpes,84,Cantal,15
+4,Auvergne-Rhône-Alpes,84,Drôme,26
+5,Auvergne-Rhône-Alpes,84,Isère,38
+6,Auvergne-Rhône-Alpes,84,Loire,42
+7,Auvergne-Rhône-Alpes,84,Haute-Loire,43
+8,Auvergne-Rhône-Alpes,84,Puy-de-Dôme,63
+9,Auvergne-Rhône-Alpes,84,Rhône,69
+10,Auvergne-Rhône-Alpes,84,Savoie,73
+11,Auvergne-Rhône-Alpes,84,Haute-Savoie,74
+12,Hauts-de-France,32,Aisne,02
+13,Hauts-de-France,32,Nord,59
+14,Hauts-de-France,32,Oise,60
+15,Hauts-de-France,32,Pas-de-Calais,62
+16,Hauts-de-France,32,Somme,80
+17,Provence-Alpes-Côte d'Azur,93,Alpes-de-Haute-Provence,04
+18,Provence-Alpes-Côte d'Azur,93,Alpes-Maritimes,06
+19,Provence-Alpes-Côte d'Azur,93,Bouches-du-Rhône,13
+20,Provence-Alpes-Côte d'Azur,93,Var,83
+21,Provence-Alpes-Côte d'Azur,93,Vaucluse,84
+22,Provence-Alpes-Côte d'Azur,93,Hautes-Alpes,05
+23,Grand Est,44,Ardennes,08
+24,Grand Est,44,Aube,10
+25,Grand Est,44,Marne,51
+26,Grand Est,44,Meurthe-et-Moselle,54
+27,Grand Est,44,Meuse,55
+28,Grand Est,44,Moselle,57
+29,Grand Est,44,Bas-Rhin,67
+30,Grand Est,44,Haut-Rhin,68
+31,Grand Est,44,Vosges,88
+32,Grand Est,44,Haute-Marne,52
+33,Occitanie,76,Ariège,09
+34,Occitanie,76,Aude,11
+35,Occitanie,76,Aveyron,12
+36,Occitanie,76,Gard,30
+37,Occitanie,76,Haute-Garonne,31
+38,Occitanie,76,Gers,32
+39,Occitanie,76,Hérault,34
+40,Occitanie,76,Hautes-Pyrénées,65
+41,Occitanie,76,Pyrénées-Orientales,66
+42,Occitanie,76,Tarn,81
+43,Occitanie,76,Tarn-et-Garonne,82
+44,Occitanie,76,Lot,46
+45,Occitanie,76,Lozère,48
+46,Normandie,28,Calvados,14
+47,Normandie,28,Eure,27
+48,Normandie,28,Manche,50
+49,Normandie,28,Orne,61
+50,Normandie,28,Seine-Maritime,76
+51,Nouvelle-Aquitaine,75,Charente,16
+52,Nouvelle-Aquitaine,75,Charente-Maritime,17
+53,Nouvelle-Aquitaine,75,Corrèze,19
+54,Nouvelle-Aquitaine,75,Creuse,23
+55,Nouvelle-Aquitaine,75,Dordogne,24
+56,Nouvelle-Aquitaine,75,Gironde,33
+57,Nouvelle-Aquitaine,75,Landes,40
+58,Nouvelle-Aquitaine,75,Lot-et-Garonne,47
+59,Nouvelle-Aquitaine,75,Pyrénées-Atlantiques,64
+60,Nouvelle-Aquitaine,75,Deux-Sèvres,79
+61,Nouvelle-Aquitaine,75,Vienne,86
+62,Nouvelle-Aquitaine,75,Haute-Vienne,87
+63,Centre-Val de Loire,24,Cher,18
+64,Centre-Val de Loire,24,Eure-et-Loir,28
+65,Centre-Val de Loire,24,Indre,36
+66,Centre-Val de Loire,24,Indre-et-Loire,37
+67,Centre-Val de Loire,24,Loir-et-Cher,41
+68,Centre-Val de Loire,24,Loiret,45
+69,Bourgogne-Franche-Comté,27,Côte-d'Or,21
+70,Bourgogne-Franche-Comté,27,Doubs,25
+71,Bourgogne-Franche-Comté,27,Jura,39
+72,Bourgogne-Franche-Comté,27,Nièvre,58
+73,Bourgogne-Franche-Comté,27,Haute-Saône,70
+74,Bourgogne-Franche-Comté,27,Saône-et-Loire,71
+75,Bourgogne-Franche-Comté,27,Yonne,89
+76,Bourgogne-Franche-Comté,27,Territoire de Belfort,90
+77,Bretagne,53,Côtes-d'Armor,22
+78,Bretagne,53,Finistère,29
+79,Bretagne,53,Ille-et-Vilaine,35
+80,Bretagne,53,Morbihan,56
+81,Corse,94,Corse-du-Sud,2A
+82,Corse,94,Haute-Corse,2B
+83,Pays de la Loire,52,Loire-Atlantique,44
+84,Pays de la Loire,52,Maine-et-Loire,49
+85,Pays de la Loire,52,Mayenne,53
+86,Pays de la Loire,52,Sarthe,72
+87,Pays de la Loire,52,Vendée,85
+88,Île-de-France,11,Seine-et-Marne,77
+89,Île-de-France,11,Yvelines,78
+90,Île-de-France,11,Essonne,91
+91,Île-de-France,11,Hauts-de-Seine,92
+92,Île-de-France,11,Seine-Saint-Denis,93
+93,Île-de-France,11,Val-de-Marne,94
+94,Île-de-France,11,Val-d'Oise,95
+95,Guadeloupe,01,Guadeloupe,971
+96,La Réunion,04,La Réunion,974
+97,Mayotte,06,Mayotte,976
+98,Île-de-France,11,Paris,75
+99,Martinique,02,Martinique,972
+100,Guyane,03,Guyane,973
+101,Collectivités d'outre-mer,00,Saint-Pierre-et-Miquelon,975
+102,Collectivités d'outre-mer,00,Wallis-et-Futuna,986
+103,Collectivités d'outre-mer,00,Polynésie française,987
+104,Collectivités d'outre-mer,00,Nouvelle-Calédonie,988
+105,Collectivités d'outre-mer,00,Saint-Barthélémy,977
