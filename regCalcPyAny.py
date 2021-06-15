@@ -1,32 +1,12 @@
-# To add a new cell, type '# %%'
-# To add a new markdown cell, type '# %% [markdown]'
-# %%
-# mémo :
 
-# Créer une cellule : cliquer sur la gauche d'une cellule puis sur les touches clavier a / b
-# Mettre une cellule en mode texte :  cliquer sur la gauche d'une cellule puis touche clavier r
-# Mettre une cellule en mode code :  cliquer sur la gauche d'une cellule puis touche clavier y
-# Exécuter une cellule : shift + entrée
-# Tout éxécuter : onglet noyau -> redémarrer et tout éxécuter / onglet Cellule -> éxécuter toutes les suivantes
-# Ajouter un modle : ! pip install nom_du_module
-
-# 1er lancement :
-
-# ! pip install dash - auth == 1.3.2
-
-# Exécuter cette cellule puis mettre cette cellule en mode texte :
-# cliquer sur la gauche d'une cellule puis touche clavier r
-# %%
 import pandas as pd
 
-pd.set_option('display.max_columns', None)
 import math
 
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output, State
-# import dash_html_components as html
 import base64
 import dash_bootstrap_components as dbc
 import dash_table
@@ -38,11 +18,7 @@ dfInfos['Code_région'] = dfInfos['Code_région'].apply(lambda x: str(x).zfill(2
 dfInfos['Population_département'] = dfInfos['Population_département'].astype(int)
 
 
-# Fichier test Pays de la Loire :
-# test72 = pd.read_csv('Test72.csv')
-# test72['Code_région'] = test72['Code_région'].astype(str)
-# test72['Code_département'] = test72['Code_département'].astype(str)
-# %%
+
 # calculette :
 def Algo_regionales(test72):
     # étape 1 : Vérifier la liste en tête :
@@ -53,12 +29,12 @@ def Algo_regionales(test72):
     NuanceTete = test72.loc[0, 'Nuance']
 
     # calculer le nombre de siege pour la nuance de tête:
-    NbSiegeRégion = dfInfos[dfInfos['Code_région'] == test72['Code_région'].unique()[0]]['Nb_sieges_région'].unique()[0]
-    SiegeTete = math.ceil(NbSiegeRégion / 4)
+    NbSiegeRegion = dfInfos[dfInfos['Code_région'] == test72['Code_région'].unique()[0]]['Nb_sieges_région'].unique()[0]
+    SiegeTete = math.ceil(NbSiegeRegion / 4)
 
     # étape 2 calculer le nombre de siège par nuance :
     # Quotient électoral :
-    SiegeApourvoir = NbSiegeRégion - SiegeTete
+    SiegeApourvoir = NbSiegeRegion - SiegeTete
     TotalVoixRegion = test72['Voix_département_nuance'].sum()
 
     # Calcul quotient électoral:
@@ -90,7 +66,7 @@ def Algo_regionales(test72):
                                                                      dfSiegeRegNuance['Siege_Region_Nuance_Moyenne']
 
     # Boucle pour incrémenter d'un siège en fonction de la plus forte moyenne pour la région :
-    NbSiegeAPourvoirParMoyenne = NbSiegeRégion - dfSiegeRegNuance['Siege_Region_Nuance_Total'].sum()
+    NbSiegeAPourvoirParMoyenne = NbSiegeRegion - dfSiegeRegNuance['Siege_Region_Nuance_Total'].sum()
     for a in range(NbSiegeAPourvoirParMoyenne):
         # déterminer les scores donné par nb voix nuance / nb sièges obtenus + 1
         dfMoyenne = dfSiegeRegNuance[
