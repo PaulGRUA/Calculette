@@ -163,7 +163,7 @@ def Algo_regionales(test72):
                 if l_nuances[a] == NuanceTete:
                     l_ordreDepartement.append(depNuanceToIncrement)
         except IndexError:
-            pass
+            continue
 
     # Sélectionner et renommer les colonnes :
     test72 = test72[['Code_département', 'Nom_département', 'Nuance', 'Siege_département_Nuance_Somme_Quotient_Moyenne',
@@ -616,6 +616,7 @@ TablesResultsSiege = html.Div([
 # initialise the Dash interface
 backGroundColor = '#f7f7f7'
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 # mdp :
 auth = dash_auth.BasicAuth(
     app,
