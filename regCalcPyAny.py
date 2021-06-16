@@ -220,13 +220,13 @@ def Algo_regionales(test72):
                                                                                                                                l_depAjoutSiege[
                                                                                                                                    a]) & (
                                                                                                                                test72[
-                                                                                                                                   'Nuance'] == NuanceTete)].index, 'Siege_département_Nuance_Nb_min'] + \
+                                                                                                                                   'Nuance'] == NuanceTete)].index, 'Siege_département_Nuance_Nb_min'].unique()[0] + \
                                                                                                  dfVerifMinimumConseillers.loc[
                                                                                                      dfVerifMinimumConseillers[
                                                                                                          dfVerifMinimumConseillers[
                                                                                                              'Code_département'] ==
                                                                                                          l_depAjoutSiege[
-                                                                                                             a]].index, 'Nb_siege_a_ajouter']
+                                                                                                             a]].index, 'Nb_siege_a_ajouter'].unique()[0]
 
         # Calculer le nombre de siège à retirer pour la nuance tête :
     NbSiegeAretirer = dfVerifMinimumConseillers['Nb_siege_a_ajouter'].sum()
